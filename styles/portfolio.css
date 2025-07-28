@@ -1,0 +1,158 @@
+
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+.dark-2{
+    color: #474747;
+}
+.dark-1{
+    color:#181818;
+}
+.dark-3{
+        color: #757575;
+ }
+
+.btn-primary{
+    background-color: #FD6E0A;
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFFFFF;
+    padding: 18px 35px;
+    border-radius:5px ;
+    border: none;
+}
+/*Nav styles*/
+ nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 200px;
+}
+.nav-title{
+    font-weight: 800;
+    font-size: 45px
+}
+/*shared styles*/
+.text-center{
+   text-align: center;
+
+}
+.secondary-bg{
+    background-color: #FFF8F3;
+}
+.text-primary{
+    color:#FD6E0A;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    margin-right: 51px;
+}
+nav li a{
+    text-decoration: none;
+    font size: 20px;
+
+
+}
+.section{
+    border:2px solid black;
+    background-color: #FFFFFF;
+    /*text-align: center;*/
+    justify-content: space-between;
+    width: 827px;
+    height: 288px;
+    padding: 0;
+    margin: 0;
+}
+.section-tile{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
+.section-description{
+    font-size: 18px;
+    color: #757575; 
+}
+/*header*/
+.header{
+    background-image: url('../images/developer.png'), url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: top left , bottom right;
+}
+/*banner styles*/
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 30px 0px 230px;
+
+}
+.banner-content{
+    max-width: 585px;
+    max-height: 356px;
+}
+.banner-greetings{
+    font-weight: 600;
+    font-size: 45px;
+}
+.banner-title{
+    font-weight: bold;
+    font-size: 85px;
+}
+.banner-description{
+    font-weight: regular;
+    font-size: 18px;
+}
+
+.banner-profile-picture{
+     width:584px;
+     height:676px;
+}
+/*main styles*/
+main{
+    max-width: 1140px;
+    margin:0 auto;
+}
+/*about styles*/
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    margin-top: 131px;
+    
+    
+
+}
+.item-title{
+    font-size: 20px;
+}
+.item-description{
+    font-size: 20px;
+    font-weight: bold;
+    color: #474747;
+}
+
+.about-items{
+    display:flex;
+    justify-content: space-around;
+    margin-bottom: 0px auto;
+    padding :0;
+    
+}
+/*skill styles*/
+.skills-container{
+    display: flex;
+    gap:24px;
+
+}
+.skill{
+    padding:30px;
+    font-weight: 16px;
+    box-shadow: 0px, 6px,50px,0px rgba(0, 0, 0, 0.06);
+}
